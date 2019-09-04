@@ -1,0 +1,7 @@
+Domain Name: profelements.io
+Cost: 28.88/yr
+Hosting:
+Package: Business Plan
+Cost: $5.85/mo
+Unlimited Domains, One Click Installs ,Unmetered Bandwidth ,Free SSL Certificate ,Free Upgrade to Positive SSL ,Free Dedicated IP ,Free SEO Tools
+This is the second paragraph of my document. It iwll be saved using a slightly different method. Since the document already has a name. I could simply use the File >> Save Option and it would save without having to retype the name. Instead, I will use the File >> "Save As" menu selection, because it will be saving using a new name.
