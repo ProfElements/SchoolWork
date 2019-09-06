@@ -1,0 +1,29 @@
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css);
+* {
+    background-color: black;
+    color: white;
+    font: 18px/66px 'Fira Code', monospace;
+}
+.header {
+    height: 66px;
+    display: block;
+    text-align: right;
+    padding-right: 20%;
+    margin: auto auto 40px auto;
+    border-bottom: white solid 1px;
+}
+.introspection {
+    width: 100%;
+}
+.title {
+    padding-right: 40%;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover:not(.buffers) {
+    text-decoration: underline;
+}
