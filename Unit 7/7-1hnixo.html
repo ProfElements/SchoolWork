@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<! Hunter Nixon, 7-1, 10/25/2019>
+    <HTML>
+
+    <HEAD>
+        <TITLE> Creating Tables </TITLE>
+    </HEAD>
+
+    <BODY>
+        <H1> Creating Tables </H1>
+        <P> The table below is a one row table with a caption with one heading cell. To create a table
+                you start with open and closed TABLE tags. If you want a border, you use the BORDER
+                attribute in the open TABLE tag with a pixel size. After the open TABLE tag, you insert a
+                caption with CAPTION tags. Then you begin the row and column process. It’s easier to
+                start with rows. TR tags are used for rows. TD tags for columns unless you want
+                information bolded then you use TH tags to make it a bolded header. In this case, we
+                need only one row using one set of open and closed TR tags after the CAPTION. In
+                between the open and closed TR tags we will need four columns using a set of TH tags for
+                the first column followed by three sets of TD tags. </P>
+        
+        <TABLE BORDER=3>
+            <CAPTION>Table with One Row</CAPTION>
+            <TR>
+            <TH>HEADING</TH>
+            <TD>Data</TD>
+            <TD>Data</TD>
+            <TD>Data</TD>
+            </TR>
+        </TABLE>
+        <p>The table below is a three row table with a caption and three heading cells. Again, we
+                start with open and closed TABLE tags and I used the BORDER attribute pixel size 3.
+                Between the TABLE tags I inserted a caption using the CAPTION tags. After the
+                CAPTION, the row and column process begins. In this case it is a three row table using
+                three sets of TR tags. In between each set of TR tags columns are created. In this case in
+                the first row three sets of TH tags are used so text will be bold. In the remaining two
+                rows, three sets of TD tags in each row are used</p>
+        <TABLE BORDER=3>
+            <CAPTION>Table with Three Rows</CAPTION>
+            <TR>
+            <TH>HEADING</TH>
+            <TH>HEADING</TH>
+            <TH>HEADING</TH>
+            </TR>
+            <TR>
+            <TD>Data</TD>
+            <TD>Data</TD>
+            <TD>Data</TD>
+            </TR>
+            <TR>
+            <TD>Data</TD>
+            <TD>Data</TD>
+            <TD>Data</TD>
+            </TR>
+        </TABLE>
+        
+        <TABLE BORDER=3>
+            <CAPTION>This Table Has 5 Columns and 4 Rows</CAPTION>
+            <TR>
+            <TH>Colors</TH>
+            <TD>Red</TD>
+            <TD>Yellow</TD>
+            <TD>Blue</TD>
+            <TD>Green</TD>
+            </TR>
+            <TR>
+            <TH>Days</TH>
+            <TD>Monday</TD>
+            <TD>Tuesday</TD>
+            <TD>Wednesday</TD>
+            <TD>Thursday</TD>
+            </TR>
+            <TR>
+            <TH>Months</TH>
+            <TD>January</TD>
+            <TD>Febuary</TD>
+            <TD>September</TD>
+            <TD>December</TD>
+            </TR>
+            <TR>
+                <TH>Names</TH>
+            <TD>Paul</TD>
+            <TD>Lois</TD>
+            <TD>Kate</TD>
+            <TD>Tom</TD>
+            </TR>
+        </TABLE>
+
+        <ADDRESS>
+            <HR>
+            <EM>
+                <FONT SIZE=1>
+                    <CENTER> Hunter Nixon
+                        <A HREF=”mailto:hunter.nixon@brimfield309.com ”>
+                            hunter.nixon@brimfield309.com
+                        </A>
+                        <BR>
+                        &#169
+                        2019,
+                        Void Corporation
+                    </CENTER>
+            </EM></FONT>
+        </ADDRESS>
+    </BODY>
+
+    </HTML>

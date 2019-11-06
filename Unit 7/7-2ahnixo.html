@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<! Hunter Nixon, 7-2, 10/25/2019>
+    <HTML>
+
+    <HEAD>
+        <TITLE> More Table Attributes </TITLE>
+    </HEAD>
+
+    <BODY>
+        <H1> More Table Attributes </H1>
+        <P> The following two tables use the ROWSPAN and COLSPAN attributes. When you want
+                information to take up more space than one row you use ROWSPAN in the open TH or
+                TD tag. </P>
+        <p>In the first example, I use ROWSPAN to create a heading that takes up two rows in one
+                column. This means that when building my second row I only used two sets of TD tags for
+                two columns because of the ROWSPAN.</p>
+        <p>
+            In the second example, I use COLSPAN to create a heading that takes up three columns.
+                This means that when building my first row I only use one set of TH or TD tags.
+        </p>
+        <TABLE BORDER=3 BORDERCOLOR=#000000>
+                <CAPTION>First Cell Spans Two Rows</CAPTION>
+                <TR>
+                <TH ROWSPAN=2>TALL<BR> HEADING</TH>
+                <TH>HEADING</TH>
+                <TH>HEADING</TH>
+                </TR>
+                <TR>
+                <TD>Data</TD>
+                <TD>Data</TD>
+                </TR>
+                <TR>
+                <TD>Data</TD>
+                <TD>Data</TD>
+                <TD>Data</TD>
+                </TR>
+        </TABLE>
+        <TABLE BORDER=3 BORDERCOLOR=#000000>
+            <CAPTION>First Cell Spans 3 Columns</CAPTION>
+            <TR>
+            <TH COLSPAN=3>EXTRA WIDE HEADING</TH>
+            </TR>
+            <TR>
+            <TD>Data</TD>
+            <TD>Data</TD>
+            <TD>Data</TD>
+            </TR>
+            <TR>
+            <TD>Data</TD>
+            <TD>Data</TD>
+            <TD>Data</TD>
+            </TR>
+        </TABLE>
+        <p>TThe following two tables use the BORDERCOLOR, CELLSPACING and
+                CELLPADDING attributes. When you want extra space around the outside of a cell, use
+                the CELLSPACING attribute in the open TABLE tag. When you want extra space around
+                the inside of a cell, use the CELLPADDING attribute in the open TABLE tag. When you
+                want your table to have a colored border, use the BORDERCOLOR attribute in the open
+                TABLE tag.</p>
+        <TABLE CELLSPACING=5 BORDER=3 BORDERCOLOR=#000000>
+            <CAPTION>Cellspacing = 5</CAPTION>
+            <TR>
+            <TH COLSPAN=3>EXTRA WIDE HEADING</TH>
+            </TR>
+            <TR>
+            <TD>Data</TD>
+            <TD>Data</TD>
+            <TD>Data</TD>
+            </TR>
+            <TR>
+            <TD>Data</TD>
+            <TD>Data</TD>
+            <TD>Data</TD>
+            </TR>
+        </TABLE>        
+        <TABLE CELLPADDING=8 BORDER=3 BORDERCOLOR=#000000>
+            <CAPTION>Cellpadding = 8</CAPTION>
+            <TR>
+            <TH COLSPAN=3>EXTRA WIDE HEADING</TH>
+            </TR>
+            <TR>
+            <TD>Data</TD>
+            <TD>Data</TD>
+            <TD>Data</TD>
+            </TR>
+            <TR>
+            <TD>Data</TD>
+            <TD>Data</TD>
+            <TD>Data</TD>
+            </TR>
+        </TABLE>    
+
+
+        <ADDRESS>
+            <HR>
+            <EM>
+                <FONT SIZE=1>
+                    <CENTER> Hunter Nixon
+                        <A HREF=”mailto:hunter.nixon@brimfield309.com ”>
+                            hunter.nixon@brimfield309.com
+                        </A>
+                        <BR>
+                        &#169
+                        2019,
+                        Void Corporation
+                    </CENTER>
+            </EM></FONT>
+        </ADDRESS>
+    </BODY>
+
+    </HTML>
