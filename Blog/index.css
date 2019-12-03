@@ -27,7 +27,3 @@
 .header a:hover:not(.buffers) {
     text-decoration: underline;
 }
-.content li {
-    padding-left: 20%;
-    list-style: none;
-}
